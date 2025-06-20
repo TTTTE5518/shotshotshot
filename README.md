@@ -15,9 +15,6 @@
 ---
 
 ## 系統架構
-
-```mermaid
-graph TD
     A[超音波感測器<br>HC-SR04] -- 距離數值 --> B[Arduino]
     B -- Serial (USB) --> C[TouchDesigner]
     C -- Weather API請求 --> D[氣象資料庫]
